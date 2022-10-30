@@ -49,7 +49,7 @@ p {
   background-image: url("../images/stars.jpg");
   background-size: cover;
   background-position: center;
-  padding: 150px 50px;
+  padding: 200px 50px;
 }
 .hero-banner p {
   font-size: 30px;
@@ -58,8 +58,10 @@ p {
 
 h1 {
   font-size: 70px;
-  
 }
+
+/* Projects */
+
 .project-card {
   width: 25%;
   height: 500px;
@@ -72,7 +74,23 @@ h1 {
 #work {
   display: flex;
   flex-wrap: wrap;
+}
 
+/* contact */
+.contact { 
+  display: flex;
+  /* list-style-type: none;
+  display: inline-block; */
+  flex-direction: row;
+  
+}
+.contact li {
+  display: flex;
+  list-style-type: none;
+  display: inline;
+  flex-direction: row;
+  padding: 20px 20px 20px 10px;
+  color: #48FC00;
 }
 /* footer */
 footer {
