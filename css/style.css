@@ -36,24 +36,42 @@ p {
   list-style-type: none;
   display: inline-block;
   padding: 20px 20px 20px 10px;
+  color: #48FC00;
 }
-/* .nav-list .list-item {
-  display: inline-block;
-  padding: 20px 10px;
-} */
+
 
 /* Hero */
 .hero-banner {
-  background-image: url(images/space.jpeg);
+  margin-top: 0;
+  background-color: black;
   color: red;
-  padding: 50px;
+  width: 100%;
+  background-image: url("../images/stars.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 50px;
 }
+.hero-banner p {
+  font-size: 30px;
+  float: right;
+}
+
 h1 {
   font-size: 70px;
   
 }
+.project-card {
+  width: 25%;
+  height: 500px;
 
+}
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+}
 #work {
+  display: flex;
+  flex-wrap: wrap;
 
 }
 /* footer */
@@ -66,3 +84,4 @@ footer {
 
 a:visited {
   color: green;
+}

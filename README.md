@@ -1,3 +1,6 @@
+green used in the logo #48FC00
+
+Portfolio site
 # Unit 2 Challenge: Portfolio
 
 ## Your Task
