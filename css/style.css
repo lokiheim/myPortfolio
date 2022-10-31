@@ -97,10 +97,9 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  padding: 50px;
 }
 #work h2 {
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 10px 35px;
 }
 .project-card {
   width: 45%;
@@ -112,14 +111,17 @@ h1 {
   max-width: 100%;
 }
 
-.project-image .text {
-  align-items: center;
+.text {
+  padding: 0 20px ;
 }
 
-.project-image:first-child {
-  width: 100%;
+#mainCard {
+  width: 83%;
 }
 
+/* .project-card:hover {
+  transform: scale(1.1);
+} */
 
 
 /* contact */
